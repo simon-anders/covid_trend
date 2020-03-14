@@ -1,7 +1,7 @@
 <div style="max-width:850px">
-## Covid19
-
 *[ ![](https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/US.png) English version | [ ![](https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/DE.png) Deutsche Fassung](covid_de.html) ]*
+
+## Covid19
 
 Increase of the number of Covid19 cases over the last few weeks:
 
