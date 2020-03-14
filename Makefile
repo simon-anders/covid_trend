@@ -1,10 +1,13 @@
-all: covid.html covid_plotly.html
+all: covid.html covid_plotly.html covid_de.html
 
 clean:
-	rm -f covid.html covid_plotly.html covid_plotly.pre.html
+	rm -f covid.html covid_plotly.html covid_plotly.pre.html covid_de.html
 
 covid.html: page.md
 	pandoc -s page.md >covid.html
+
+covid_de.html: page_de.md
+	pandoc -s page_de.md >covid_de.html
 
 covid_plotly_pre.html: make_plotly.R
 	R CMD BATCH make_plotly.R 

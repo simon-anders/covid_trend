@@ -1,6 +1,8 @@
 <div style="max-width:850px">
 ## Covid19
 
+*[ ![](https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/US.png) English version | [ ![](https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/DE.png) Deutsche Fassung](covid_de.html) ]*
+
 Increase of the number of Covid19 cases over the last few weeks:
 
 <iframe src="covid_plotly.html" width=1000 height=500 style="border:none;padding:none"></iframe>
