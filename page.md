@@ -14,9 +14,11 @@ This chart helps you understand you how dramatic exponential growth can be:
 
 - Move your mouse over the coloured lines to read of indidual values.
 
+<p style="margin-bottom:50px;"></p>
+
 ---
 
-<p style="margin-bottom:150px;"></p>
+<p style="margin-bottom:100px;"></p>
 
 How worried should we be? Here is my very personal opinion:
 
