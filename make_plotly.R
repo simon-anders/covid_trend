@@ -67,6 +67,6 @@ plot
 
 htmlwidgets::saveWidget( 
   widget = plotly::ggplotly( plot, width=800, height=450 ), 
-  file = "covid_plotly.html",
+  file = "covid_plotly_pre.html",
   selfcontained = FALSE,
   title = "COVID 19 cases" )
