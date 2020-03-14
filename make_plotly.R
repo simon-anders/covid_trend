@@ -65,7 +65,11 @@ ggtitle( "COVID-19" ) +
 theme_bw() -> plot
 
 htmlwidgets::saveWidget( 
-  widget = plotly::ggplotly( plot, width=800, height=450 ), 
+  widget = 
+    plotly::ggplotly( plot, width=800, height=450 ) %>%
+    plotly::config(displayModeBar = F) %>% 
+    plotly::layout(xaxis=list(fixedrange=TRUE)) %>% 
+    plotly::layout(yaxis=list(fixedrange=TRUE)), 
   file = "covid_plotly_pre.html",
   selfcontained = FALSE,
   title = "COVID 19 cases" )
