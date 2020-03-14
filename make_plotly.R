@@ -63,7 +63,6 @@ scale_color_manual( values=palette ) +
 ylab( "number of cases" ) +
 ggtitle( "COVID-19" ) +
 theme_bw() -> plot
-plot  
 
 htmlwidgets::saveWidget( 
   widget = plotly::ggplotly( plot, width=800, height=450 ), 
