@@ -1,5 +1,5 @@
 <div style="max-width:850px">
-*[ ![](https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/US.png) English | [ ![](https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/DE.png) Deutsch ](covid_de.html) ]*
+\[ *![](https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/US.png) English* | *[ ![](https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/DE.png) Deutsch ](covid_de.html)* ]
 
 ## Covid19
 
@@ -7,7 +7,7 @@ Increase of the number of Covid19 cases over the last few weeks:
 
 <iframe src="covid_plotly.html" width=1000 height=500 style="border:none;padding:none"></iframe>
 
-This chart helps you understand you how dramatic exponential growth can be:
+This chart helps understand how dramatic exponential growth can be:
 
 - The diagonal gray lines indicate exponential growth with a **10-fold increase every week**.
 - Observe that the gray lines match quite closely the trend for many countries.

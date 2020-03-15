@@ -57,7 +57,7 @@ scale_y_log10( limits=c(7,1e5),
 geom_line( aes( group=shift ), col="gray", data = slopelines ) +
 geom_line( aes( col=region ) ) +
 scale_color_manual( values=palette ) +
-ylab( "number of cases" ) +
+ylab( "confirmed cases" ) +
 ggtitle( "COVID-19" ) +
 theme_bw() -> plot
 
