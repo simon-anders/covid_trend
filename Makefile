@@ -1,7 +1,7 @@
 all: covid.html covid_plotly.html covid_de.html
 
 refresh:
-	make time_series_19-covid-Confirmed.csv
+	rm time_series_19-covid-Confirmed.csv
 	make all
 
 clean:
