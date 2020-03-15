@@ -1,10 +1,7 @@
 library( tidyverse )
 library( ggplot2 )
 
-jhu_url <- paste( "https://raw.githubusercontent.com/CSSEGISandData/", 
-  "COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/", 
-  "time_series_19-covid-Confirmed.csv", sep = "")
-read_csv(jhu_url) -> raw_data
+read_csv( "time_series_19-covid-Confirmed.csv" ) -> raw_data
 
 # Make the palette
 seq( 0, by=.211, length.out=300 ) -> a
