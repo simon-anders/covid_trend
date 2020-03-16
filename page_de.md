@@ -1,3 +1,6 @@
+<style>
+   a { text-decoration: none; }
+</style>
 <div style="max-width:850px">
 \[ *[ ![](https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/US.png) English](covid.html)* | *![](https://cdn1.iconfinder.com/data/icons/stripe-flag-set/23/DE.png) Deutsch* ]
 
