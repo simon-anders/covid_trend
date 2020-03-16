@@ -33,19 +33,8 @@ pull(region) -> countries_sorted
 
 # Make slopelines
 mondays <- seq( as.Date("2020-01-13"), as.Date(Sys.time())+14, by=7 )
-tibble(
-  startdate = mondays,
-  startcount = 10 ) %>%
-mutate( enddate = max(main_data$date) + 14 ) %>%
-mutate( endcount = ( 10 ^ (as.integer(enddate-startdate)/7) ) * startcount ) %>%
-mutate( idx = row_number() ) -> aa
-
-bind_rows(
-aa %>% select( idx, date=startdate, count=startcount ),
-aa %>% select( idx, date=enddate, count=endcount ) ) -> slopelines
-
 map_dfr( -12:12, .id="shift", function(i)
-   tibble( date = mondays, count = 10^((0:10)+i) ) ) -> slopelines
+   tibble( date = mondays, count = 10^(seq_along(mondays)+i) ) ) -> slopelines
 
 main_data %>%
 mutate_at( "region", factor, levels=rev(countries_sorted) ) %>%
