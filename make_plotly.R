@@ -8,7 +8,7 @@ seq( 0, by=.211, length.out=300 ) -> a
 hsv( a - floor(a), 1, .85 ) -> palette
 
 # Clean the data:
-read_csv(jhu_url) %>%
+raw_data %>%
 # Select columns
 select( -`Province/State`, -Lat, -Long ) %>%
 gather( date, count, -`Country/Region` ) %>%
