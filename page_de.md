@@ -19,13 +19,15 @@ Dieser Graph verdeutlicht, wie dramatisch exponentielles Wachstum sein kann:
 
 - Um Einzelwerte zu sehen, bewegen Sie die Maus über die Kurven.
 
+- Ein Doppelklick auf den Namen eines Landes zeigt die Kurve nur für dieses Land.
+
 <p style="margin-bottom:50px;"></p>
 
 ---
 
 <p style="margin-bottom:100px;"></p>
 
-Wie sehr sollten wir uns Sorgen machen? Hier ist meine eigene sehr persönliche Meinung:
+Wie sehr sollten wir uns Sorgen machen? Hier ist meine eigene sehr persönliche Meinung: (verfasst am 14. März 2020)
 
 - Es sind dia Alten, Kranken und Gebrechlichen, die in ernster Gefahr sind, an Covid19 zu sterben. Wenn Sie, wie ich, gesund und nicht alt sind, dann brauchen Sie sich nicht allzu viele Sorgen **um sich selbst** zu machen.
 - **Aber**: Wenn Sie infiziert sind, sind Sie anteckend, schon einige Tage bevor Sie etwas merken. In dieser Zeit könnten Sie andere anstecken, und die werden vielleicht sehr viel ernster krank als Sie.

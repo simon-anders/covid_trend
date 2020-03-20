@@ -19,13 +19,15 @@ This chart helps understand how dramatic exponential growth can be:
 
 - Move your mouse over the coloured lines to read of indidual values.
 
+- Double-click on a country name to see only that trace.
+
 <p style="margin-bottom:50px;"></p>
 
 ---
 
 <p style="margin-bottom:100px;"></p>
 
-How worried should we be? Here is my very personal opinion:
+How worried should we be? Here is my very personal opinion: (written 14 Mar 2020)
 
 - It's the older, the sick, weak or frail people who are at serious risk of dying. So, if you are, like me, healthy and not old, you might not worry too much **about youself**. 
 
