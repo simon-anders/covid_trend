@@ -32,7 +32,7 @@ arrange(count) %>%
 pull(region) -> countries_sorted
 
 # Make slopelines
-mondays <- seq( as.Date("2020-01-13"), as.Date(Sys.time())+14, by=7 )
+mondays <- seq( as.Date("2020-01-13"), as.Date("2020-01-13")+30*7, by=7 )
 map_dfr( -12:12, .id="shift", function(i)
    tibble( date = mondays, count = 10^(seq_along(mondays)+i) ) ) -> slopelines
 
@@ -40,9 +40,9 @@ main_data %>%
 mutate_at( "region", factor, levels=rev(countries_sorted) ) %>%
 ggplot( aes( x=date, y=count ) ) +
 scale_x_date( breaks = mondays, date_labels = "%a %d. %b", 
-  limits = as.Date( c(  mondays[6], mondays[11] ) ) ) +
-scale_y_log10( limits=c(7,1e5),
-  breaks = 10^(1:5), labels=c("10", "100", "1000", "10,000", "100,000" ) )+
+  limits = as.Date( c(  mondays[8], mondays[14] ) ) ) +
+scale_y_log10( limits=c(7,1e6),
+  breaks = 10^(1:6), labels=c("10", "100", "1000", "10,000", "100,000", "1,000,000" ) )+
 geom_line( aes( group=shift ), col="gray", data = slopelines ) +
 geom_line( aes( col=region ) ) +
 scale_color_manual( values=palette ) +
