@@ -32,7 +32,6 @@ Wie sehr sollten wir uns Sorgen machen? Hier ist meine eigene sehr persönliche 
 
 - Es sind dia Alten, Kranken und Gebrechlichen, die in ernster Gefahr sind, an Covid19 zu sterben. Wenn Sie, wie ich, gesund und nicht alt sind, dann brauchen Sie sich nicht allzu viele Sorgen **um sich selbst** zu machen.
 - **Aber**: Wenn Sie infiziert sind, sind Sie anteckend, schon einige Tage bevor Sie etwas merken. In dieser Zeit könnten Sie andere anstecken, und die werden vielleicht sehr viel ernster krank als Sie.
-- And if we cannot slow down this exponential growth, hospitals will be overwhelmed and  will not manage to treat those who get really sick. They will die. In Italy, this is already happing.
 - Wenn wir das Wachstum nicht bremsen können, werden Krankenhäuser überfüllt und nicht im Stande sein, alle die zu behandeln, die wirklich krank sind. Menschen werden deshalb sterben. In Italien geschieht dies bereits.
 
 Also: Wir müssen diese Pandemie ernst nehmen, wenn nicht im eigenen Interesse, dann um die zu schútzen, die schwächer sind als wir.
