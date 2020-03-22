@@ -40,7 +40,7 @@ main_data %>%
 mutate_at( "region", factor, levels=rev(countries_sorted) ) %>%
 ggplot( aes( x=date, y=count ) ) +
 scale_x_date( breaks = mondays, date_labels = "%a %d. %b", 
-  limits = as.Date( c(  mondays[8], mondays[14] ) ) ) +
+  limits = as.Date( c(  mondays[7], mondays[13] ) ) ) +
 scale_y_log10( limits=c(7,1e6),
   breaks = 10^(1:6), labels=c("10", "100", "1000", "10,000", "100,000", "1,000,000" ) )+
 geom_line( aes( group=shift ), col="gray", data = slopelines ) +
@@ -50,12 +50,13 @@ ylab( "confirmed cases" ) +
 ggtitle( "COVID-19" ) +
 theme_bw() -> plot
 
+plotly::ggplotly( plot, width=800, height=450 ) %>%
+plotly::config(displayModeBar = F) %>% 
+plotly::layout(xaxis=list(fixedrange=TRUE)) %>% 
+plotly::layout(yaxis=list(fixedrange=TRUE)) -> widget
+
 htmlwidgets::saveWidget( 
-  widget = 
-    plotly::ggplotly( plot, width=800, height=450 ) %>%
-    plotly::config(displayModeBar = F) %>% 
-    plotly::layout(xaxis=list(fixedrange=TRUE)) %>% 
-    plotly::layout(yaxis=list(fixedrange=TRUE)), 
+  widget,
   file = "covid_plotly_pre.html",
   selfcontained = FALSE,
   title = "COVID 19 cases" )
