@@ -6,7 +6,7 @@
 
 ## Covid19
 
-Anstieg der Covid19-Fälle in den letzten Wochen:
+Anstieg bestätigter Covid19-Fälle in den letzten Wochen:
 
 <iframe src="covid_plotly.html" width=1000 height=500 style="border:none;padding:none"></iframe>
 
@@ -16,6 +16,8 @@ Dieser Graph verdeutlicht, wie dramatisch exponentielles Wachstum sein kann:
 - Klicken SIe auf Ländernamen, um ihre Kurven zu sehen.
 - Vergleichen Sie, wie ähnlich die Kurven für viele Länder den grauen Linien sind.
 - Folgen Sie den grauen Linien, um ein paar Tage voraus zu schauen: Wohin entwickelt sich Ihr Land? Wann wird es da ein, wo Italien jetzt ist?
+
+- Dies sind nur bestätigte Fälle. Wahrscheinlich gibt es viel mehr, besonders wo zu wenig getestet wird.
 
 - Um Einzelwerte zu sehen, bewegen Sie die Maus über die Kurven.
 

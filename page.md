@@ -6,7 +6,7 @@
 
 ## Covid19
 
-Increase of the number of Covid19 cases over the last few weeks:
+Increase of the number of confirmed Covid19 cases over the last few weeks:
 
 <iframe src="covid_plotly.html" width=1000 height=500 style="border:none;padding:none"></iframe>
 
@@ -16,7 +16,7 @@ This chart helps understand how dramatic exponential growth can be:
 - Click on country names to see their traces
 - Observe that the gray lines match quite closely the trend for many countries.
 - Use the gray lines as guide to look ahead for a few days: Where is your country heading? When will it be where Italy is now?
-
+- Remeber: These are only confirmed cases. There might be many more, especially if a country does not test enough.
 
 - Move your mouse over the coloured lines to read of indidual values.
 
