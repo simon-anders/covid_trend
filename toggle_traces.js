@@ -19,5 +19,5 @@ toggle = function(){
 	}
 }
 
-//toggle();
+toggle();
 
