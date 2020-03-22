@@ -13,13 +13,13 @@ Increase of the number of Covid19 cases over the last few weeks:
 This chart helps understand how dramatic exponential growth can be:
 
 - The diagonal gray lines indicate exponential growth with a **10-fold increase every week**.
+- Click on country names to see their traces
 - Observe that the gray lines match quite closely the trend for many countries.
 - Use the gray lines as guide to look ahead for a few days: Where is your country heading? When will it be where Italy is now?
 
 
 - Move your mouse over the coloured lines to read of indidual values.
 
-- Double-click on a country name to see only that trace.
 
 <p style="margin-bottom:50px;"></p>
 
