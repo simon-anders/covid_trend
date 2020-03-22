@@ -20,8 +20,9 @@ covid_de.html: page_de.md
 covid_plotly_pre.html: make_plotly.R time_series_19-covid-Confirmed.csv
 	R CMD BATCH make_plotly.R
 
-covid_plotly.html: covid_plotly_pre.html
+covid_plotly.html: covid_plotly_pre.html toggle_traces.js
 	cat covid_plotly_pre.html | \
 	  sed -e 's/"padding":40/"padding":0/' > \
 	  sed -e 's|covid_plotly_files/plotly-main-1.49.4/plotly-latest.min.js|https://cdn.plot.ly/plotly-1.49.4.min.js|' > \
+	  sed -e 's|</body>|<script src="toggle_traces.js"></script>\n</body>|' > \
 	  covid_plotly.html
