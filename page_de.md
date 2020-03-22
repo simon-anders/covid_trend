@@ -13,7 +13,6 @@ Anstieg der Covid19-Fälle in den letzten Wochen:
 Dieser Graph verdeutlicht, wie dramatisch exponentielles Wachstum sein kann:
 
 - Die schrägen grauen Linien entsprechen einer **Verzehnfachung pro Woche**: jede Woche 10x so viele Fälle wie in der Vorwoche!
-- Observe that the gray lines match quite closely the trend for many countries.
 - Vergleichen Sie, wie ähnlich die Kurven für viele Länder den grauen Linien sind.
 - Folgen Sie den grauen Linien, um ein paar Tage voraus zu schauen: Wohin entwickelt sich Ihr Land? Wann wird es da ein, wo Italien jetzt ist?
 
