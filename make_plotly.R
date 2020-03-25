@@ -1,7 +1,7 @@
 library( tidyverse )
 library( ggplot2 )
 
-read_csv( "time_series_19-covid-Confirmed.csv" ) -> raw_data
+read_csv( "time_series_covid19_confirmed_global.csv" ) -> raw_data
 
 # Make the palette
 seq( 0, by=.211, length.out=300 ) -> a
