@@ -17,7 +17,7 @@ covid.html: page.md
 covid_de.html: page_de.md
 	pandoc -s page_de.md >covid_de.html
 
-covid_plotly_pre.html: make_plotly.R time_series_covid19_confirmed_global
+covid_plotly_pre.html: make_plotly.R time_series_covid19_confirmed_global.csv
 	R CMD BATCH make_plotly.R
 
 covid_plotly.html: covid_plotly_pre.html toggle_traces.js
