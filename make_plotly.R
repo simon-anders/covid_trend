@@ -19,7 +19,7 @@ mutate_at( "date", as.Date, "%m/%d/%y" ) %>%
 group_by( region, date ) %>%
 summarise_at( "count", sum ) %>%
 # Filter out small values
-filter( count>0, max(count) > 300 ) %>%
+filter( count>0, max(count) > 1000 ) %>%
 # Filter out old data
 filter( date >= as.Date("2020-02-17") ) %>%
 filter( region != "Cruise Ship") %>%
