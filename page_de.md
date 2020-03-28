@@ -45,7 +45,7 @@ Wie lange wird das so weiter gehen?
 Technische Anmerkungen:
 
 - Die Daten stammen aus der Zeitreihe betätigter Fälle von [dieser Seite](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series). Diese Daten wurden vom Center for Systems Science and Engineering ([CSSE](https://systems.jhu.edu/)) der Johns-Hopkins-Universität bereit gestellt, die die Daten aus [verschiedenen Quellen](https://github.com/CSSEGISandData/COVID-19) zusammengestellt haben, und sie täglich aktualisieren. Das CSSE bietet auch ihr eigenes ["Dashboard"](https://systems.jhu.edu/research/public-health/ncov/) mit aktuellen Grafiken an.
-- Um den Grahen übersichtlich zu halten, werden nur Länder mit über 300 Fällen gezeigt, und erst ab dem 17. Februar. Die CSSE-Seite hat die vollständigen Daten.
+- Um den Grahen übersichtlich zu halten, werden nur Länder mit über 1000 Fällen gezeigt, und erst ab dem 24. Februar. Die CSSE-Seite hat die vollständigen Daten.
 - Diese Seite wurde von <a href="https://twitter.com/s_anders_m">Simon Anders</a> in Heidelberg verfasst. Ich bin Physiker und Data Scientist, aber kein Eipdemiologe. Daher versuche ich mich darauf zu beschränken, einfach nur die Daten darzustellen und allgemeine Dinge wiederzugeben.
 - Der Quellcode ist <a href="https://github.com/simon-anders/covid_trend">auf GitHub</a>.
 

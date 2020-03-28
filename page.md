@@ -46,7 +46,7 @@ How long will this go on?
 Technical notes:
 
 - The data is taken from the time series of confirmed cases at [this page](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series). This data is collected by the Johns Hopkins University Center for Systems Science and Engineering ([JHU CSSE](https://systems.jhu.edu/)), who collect data from [various sources](https://github.com/CSSEGISandData/COVID-19) and update their table daily. They also offer [their own information "dashboard"](https://systems.jhu.edu/research/public-health/ncov/).
-- To reduce clutter, only countries with more than 300 cases are shown, and only from 17 Feb on. JHU CSSE has more complete information.
+- To reduce clutter, only countries with more than 1000 cases are shown, and only from 24 Feb on. JHU CSSE has more complete information.
 - This page was written by <a href="https://twitter.com/s_anders_m">Simon Anders</a> in Heidelberg. I am a physicist and data scientist, and not an epidemiologist, so I tried to sray not too far from merely presenting the raw numbers and repeating general advice.
 - Source code <a href="https://github.com/simon-anders/covid_trend">on GitHub.
 
